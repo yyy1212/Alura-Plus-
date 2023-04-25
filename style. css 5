@@ -1,11 +1,26 @@
-:root {
-    --branco-principal: #FFFFFF
-    --cinza-secundario: #C0C0C0
-    --botao-azul: #167BF7
-    --cor-de-fundo: #00030C
+: raiz {
+    --branco-principal :  # FFFFFF ;
+    --cinza-secundario :  # C0C0C0 ;
+    --botao-azul :  # 167BF7 ;
+    --cor-de-fundo :  # 00030C ;
 }
-body{
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
+
+corpo {
+    background-color :  var ( --cor-de-fundo );
+    cor :  var ( --branco-principal );
 }
-    * { margin: 0; padding: 0; }
+
+* {
+    margem :  0 ;
+    preenchimento :  0 ;
+}
+
+. principal {
+    imagem de fundo :  url ( "img/background.png" );
+    repetição de fundo : sem repetição;
+    tamanho do plano de fundo : contém;
+}
+
+. recipiente {
+    altura :  100 vh ;
+}
