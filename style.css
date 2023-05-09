@@ -1,9 +1,9 @@
-:source {
-    --main-blank : # FFFFFF ;
-    --minor-grey : # C0C0C0 ;
-    --button-blue : # 167BF7 ;
-    --background-color : # 00030C ;
-    --main-source : 'Inter' ;
+:root {
+    --branco-principal: # FFFFFF ;
+    --cinza-secundario: # C0C0C0 ;
+    --butao-azul: # 167BF7 ;
+    --cor-de-fundo : # 00030C ;
+    --fonte-principal:'Inter';
 }
 
 body {
@@ -31,7 +31,7 @@ body {
     grid-template-columns : 50% 50%;
 }
 
-.container-botao {
+.botao-secundario {
     background-color : var ( --button-blue );
     border-radius: 5 px;
     padding: 1 in;
@@ -45,12 +45,12 @@ body {
     border : 2px solid var ( --white-main )
 }
 
-.container-notice {
+.container-aviso {
     font-size: 12 px;
-    color:var(secondary-grey);
+    color:var(--cinza-secundario);
 }
 
-.container-title {
+.container-titulo {
     font-size: 28 px;
     font-weight: 700;
 }
