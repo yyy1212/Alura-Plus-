@@ -7,9 +7,9 @@
 }
 
 body {
-    background-color : var ( --background-color );
-    color : var ( --white-main );
-    font-family : var ( --main-font );
+    background-color :var(--cor-de-fundo);
+    color :var(--branco-principal);
+    font-family :var(--fonte-principal);
     font-size: 16 px;
     font-weight: 400;
 }
@@ -20,9 +20,9 @@ body {
 }
 
 .main {
-    background-image : url( "img/background.png" );
-    background-repeat: no repeat;
-    background-size : contains;
+    background-image : url("Background.png");
+    background-repeat: no-repeat;
+    background-size : contain;
 }
 
 .container {
@@ -35,14 +35,14 @@ body {
     background-color : var ( --button-blue );
     border-radius: 5 px;
     padding: 1 in;
-    color : var ( --white-main );
+    color :var(--branco-principal);
     display : block;
     text-decoration: none;
 }
 
 .secondary-button {
     background-color : transparent;
-    border : 2px solid var ( --white-main )
+    border : 2px solid var(--branco-principal) 
 }
 
 .container-aviso {
