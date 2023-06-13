@@ -150,9 +150,6 @@ body {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
-seletor:pseudo-classe {
-    propriedade: valor;
-  }
   .container__botao:hover {
     background-color: blue;
   }
