@@ -20,9 +20,11 @@ body {
 }
 
 .main {
-    background-image : url("Background.png");
+    background-image : url("Backgroud.png");
     background-repeat: no-repeat;
     background-size : contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -32,12 +34,13 @@ body {
 }
 
 .botao-secundario {
-    background-color : var ( --button-blue );
+    background-color : var (--button-azul);
     border-radius: 5 px;
-    padding: 1 in;
+    padding: 1em;
     color :var(--branco-principal);
     display : block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .secondary-button {
@@ -89,8 +92,8 @@ body {
 
 .container__descricao {
     padding: 2em;
-
-    .dispositivos__lista {
+}
+.dispositivos__lista {
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -147,3 +150,9 @@ body {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
+seletor:pseudo-classe {
+    propriedade: valor;
+  }
+  .container__botao:hover {
+    background-color: blue;
+  }
